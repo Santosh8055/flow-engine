@@ -1,0 +1,23 @@
+.rule-sheet {
+    background: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 !important;
+    float: none;
+    margin: 5px auto;
+    .rule-sheet-header {
+        cursor: pointer;
+        padding: 5px 0;
+        span {
+            padding: 0 5px;
+        }
+    }
+    .rule-sheet-body {
+        color: #444;
+        padding: 10px 0;
+        .set {
+            padding: 10px 0;
+        }
+    }
+}
